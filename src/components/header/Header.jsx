@@ -10,6 +10,7 @@ const Header = () => {
     <div>
       <h2>Header {counter}</h2>
       <button onClick={()=>dispatch(increment())}>inc</button>
+      {/* <button onC>dic</button> */}
     </div>
   )
 }
